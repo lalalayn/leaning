@@ -1,5 +1,8 @@
 package com.lyn.test;
 
+import com.lyn.utils.Jisuan;
+import com.lyn.utils.Jisuan2;
+
 /**
  *
  */
@@ -9,10 +12,19 @@ public class Demo {
         int b =2;
 
         int c = a+b;
-        System.out.println("hello");
-        System.out.println(c);
-        System.err.println("error");
+
+        Jisuan jisuan = new Jisuan();
+        jisuan.jia(a,b);
+
+        Jisuan2.jia(1,2);
 
 
+        Dongwu dongwu=new Dongwu();
+
+        Person person=new Person();
+
+        dongwu.eat("");
+        person.eat("");
+        person.zou();
     }
 }
